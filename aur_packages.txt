@@ -7,7 +7,7 @@ heroic-games-launcher-bin
 magic
 mirage
 neofetch
-neohtop-bin
+neohtop
 paru
 phinger-cursors
 plymouth-theme-arch-charge-big
