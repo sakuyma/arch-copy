@@ -1,6 +1,35 @@
 import subprocess
 import os
 import shutil
+import glob
+
+def copy_bin()
+    import shutil
+import os
+import glob
+import subprocess
+
+def copy_to_usr_local_bin():
+    source_dir = 'bin'
+    target_dir = '/usr/local/bin'
+    try:
+        for file_path in glob.glob(os.path.join(source_dir, '*')):
+            if os.path.isfile(file_path):
+                file_name = os.path.basename(file_path)
+                dest_path = os.path.join(target_dir, file_name)
+                
+                # Копируем файл
+                shutil.copy2(file_path, dest_path)
+                
+                # Делаем файл исполняемым
+                os.chmod(dest_path, 0o755)  # rwxr-xr-x
+                print(f"Скопирован и сделан исполняемым: {file_name} -> {dest_path}")
+        
+        return True
+    except Exception as e:
+        print(f"Ошибка: {e}")
+        return False
+
 
 def copy_configs_content_to_home():
     source_dir = 'configs'
@@ -101,11 +130,15 @@ def install_aur_packages(file_path="aur_packages.txt"):
         return False
 
 def main():
-    copy_configs_content_to_home()
-    install_packages_pacman("packages.txt")
-    install_paru()
-    install_aur_packages("aur_packages.txt")
-
+    if os.getuid() != 0:
+        print("Скрипту требуются права суперпользователя!")
+        return False
+    else:
+        copy_configs_content_to_home()
+        install_packages_pacman("packages.txt")
+        install_paru()
+        install_aur_packages("aur_packages.txt")
+        copy_bin()
 
 if __name__ == "__main__":
     main()
