@@ -1,0 +1,13 @@
+[Added Associations]
+text/plain=nvim-2.desktop;
+x-scheme-handler/tg=userapp-AyuGram Desktop-JUGKC3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-OOFKC3.desktop;
+image/jpeg=imv.desktop;
+image/png=imv.desktop;
+
+[Default Applications]
+text/plain=nvim-2.desktop;
+x-scheme-handler/tg=userapp-AyuGram Desktop-JUGKC3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-OOFKC3.desktop
+image/jpeg=imv.desktop
+image/png=imv.desktop

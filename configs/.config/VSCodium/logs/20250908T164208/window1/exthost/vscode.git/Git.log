@@ -1,0 +1,140 @@
+2025-09-08 16:42:15.589 [info] [main] Log level: Info
+2025-09-08 16:42:15.589 [info] [main] Validating found git in: "git"
+2025-09-08 16:42:15.589 [info] [main] Using git "2.51.0" from "git"
+2025-09-08 16:42:15.589 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-08 16:42:15.589 [info] > git rev-parse --show-toplevel [72ms]
+2025-09-08 16:42:15.589 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2025-09-08 16:42:15.589 [info] [Model][openRepository] Opened repository (path): /home/user/fastfetch
+2025-09-08 16:42:15.589 [info] [Model][openRepository] Opened repository (real path): /home/user/fastfetch
+2025-09-08 16:42:15.589 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-08 16:42:15.589 [info] > git rev-parse --show-toplevel [8ms]
+2025-09-08 16:42:15.589 [info] > git config --get commit.template [18ms]
+2025-09-08 16:42:15.589 [info] > git rev-parse --show-toplevel [36ms]
+2025-09-08 16:42:15.589 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-08 16:42:15.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-09-08 16:42:15.777 [info] > git status -z -uall [64ms]
+2025-09-08 16:42:15.777 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [53ms]
+2025-09-08 16:42:15.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-09-08 16:42:15.875 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-09-08 16:42:15.885 [info] > git config --get commit.template [40ms]
+2025-09-08 16:42:15.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2025-09-08 16:42:15.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-08 16:42:15.927 [info] > git status -z -uall [9ms]
+2025-09-08 16:42:15.932 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-08 16:42:16.150 [info] > git show --textconv :config.jsonc [106ms]
+2025-09-08 16:42:16.151 [info] > git ls-files --stage -- config.jsonc [94ms]
+2025-09-08 16:42:16.158 [info] > git fetch [678ms]
+2025-09-08 16:42:16.186 [info] > git check-ignore -v -z --stdin [16ms]
+2025-09-08 16:42:16.189 [info] > git cat-file -s 0583c8877c90c851280e60dc656465b9551105df [32ms]
+2025-09-08 16:42:16.194 [info] > git config --get commit.template [8ms]
+2025-09-08 16:42:16.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-08 16:42:16.228 [info] > git status -z -uall [12ms]
+2025-09-08 16:42:16.233 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-08 16:42:17.355 [info] > git ls-files --stage -- config.jsonc [7ms]
+2025-09-08 16:42:17.373 [info] > git cat-file -s 0583c8877c90c851280e60dc656465b9551105df [6ms]
+2025-09-08 16:42:17.398 [info] > git show --textconv :config.jsonc [6ms]
+2025-09-08 16:42:22.050 [info] [main] Log level: Info
+2025-09-08 16:42:22.050 [info] [main] Validating found git in: "git"
+2025-09-08 16:42:22.050 [info] [main] Using git "2.51.0" from "git"
+2025-09-08 16:42:22.050 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-08 16:42:22.050 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-08 16:42:51.577 [info] [main] Log level: Info
+2025-09-08 16:42:51.577 [info] [main] Validating found git in: "git"
+2025-09-08 16:42:51.577 [info] [main] Using git "2.51.0" from "git"
+2025-09-08 16:42:51.577 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-08 16:42:51.577 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-08 16:43:05.877 [info] [main] Log level: Info
+2025-09-08 16:43:05.877 [info] [main] Validating found git in: "git"
+2025-09-08 16:43:05.877 [info] [main] Using git "2.51.0" from "git"
+2025-09-08 16:43:05.877 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-08 16:43:05.877 [info] > git rev-parse --show-toplevel [6ms]
+2025-09-08 16:43:05.877 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [11ms]
+2025-09-08 16:43:05.877 [info] [Model][openRepository] Opened repository (path): /home/user/dotfiles
+2025-09-08 16:43:05.877 [info] [Model][openRepository] Opened repository (real path): /home/user/dotfiles
+2025-09-08 16:43:05.877 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-08 16:43:05.877 [info] > git rev-parse --show-toplevel [172ms]
+2025-09-08 16:43:05.877 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-08 16:43:05.877 [info] > git config --get commit.template [185ms]
+2025-09-08 16:43:05.877 [info] > git show --textconv HEAD:.config/fastfetch [75ms]
+2025-09-08 16:43:05.877 [info] > git ls-tree -l HEAD -- .config/fastfetch [61ms]
+2025-09-08 16:43:05.880 [info] > git hash-object -t tree /dev/null [16ms]
+2025-09-08 16:43:05.881 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/dotfiles/.config/fastfetch?%7B%22path%22%3A%22%2Fhome%2Fuser%2Fdotfiles%2F.config%2Ffastfetch%22%2C%22ref%22%3A%22~%22%7D
+2025-09-08 16:43:05.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [83ms]
+2025-09-08 16:43:06.152 [info] > git fetch [600ms]
+2025-09-08 16:43:06.235 [info] > git config --get commit.template [27ms]
+2025-09-08 16:43:06.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-09-08 16:43:06.266 [info] > git config --get commit.template [22ms]
+2025-09-08 16:43:06.271 [info] > git config --get --local branch.main.vscode-merge-base [15ms]
+2025-09-08 16:43:06.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-09-08 16:43:06.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-08 16:43:06.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2025-09-08 16:43:06.343 [info] > git check-ignore -v -z --stdin [27ms]
+2025-09-08 16:43:06.347 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-08 16:43:06.364 [info] > git status -z -uall [36ms]
+2025-09-08 16:43:07.035 [info] > git check-ignore -v -z --stdin [25ms]
+2025-09-08 16:43:07.804 [info] > git config --get commit.template [13ms]
+2025-09-08 16:43:07.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-09-08 16:43:07.886 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-08 16:43:07.922 [info] > git status -z -uall [64ms]
+2025-09-08 16:43:12.966 [info] > git config --get commit.template [15ms]
+2025-09-08 16:43:12.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-08 16:43:13.004 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-08 16:43:13.034 [info] > git status -z -uall [51ms]
+2025-09-08 16:43:39.796 [info] > git config --get commit.template [18ms]
+2025-09-08 16:43:39.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-08 16:43:39.842 [info] > git check-ignore -v -z --stdin [29ms]
+2025-09-08 16:43:39.848 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:39.880 [info] > git status -z -uall [52ms]
+2025-09-08 16:43:43.328 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1354ms]
+2025-09-08 16:43:44.143 [info] > git add -A -- . [70ms]
+2025-09-08 16:43:44.201 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [44ms]
+2025-09-08 16:43:44.220 [info] > git config --get commit.template [5ms]
+2025-09-08 16:43:44.261 [info] > git config --get commit.template [20ms]
+2025-09-08 16:43:44.266 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-08 16:43:44.307 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-08 16:43:44.343 [info] > git status -z -uall [63ms]
+2025-09-08 16:43:44.513 [info] > git config --get commit.template [13ms]
+2025-09-08 16:43:44.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-09-08 16:43:44.555 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:44.599 [info] > git status -z -uall [63ms]
+2025-09-08 16:43:45.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [6ms]
+2025-09-08 16:43:45.875 [info] > git log --oneline --cherry main...main@{upstream} -- [8ms]
+2025-09-08 16:43:46.465 [info] > git pull --tags origin main [572ms]
+2025-09-08 16:43:46.465 [info] From https://github.com/sakuyma/dotfiles
+ * branch            main       -> FETCH_HEAD
+2025-09-08 16:43:46.505 [info] > git config --get commit.template [21ms]
+2025-09-08 16:43:46.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-09-08 16:43:46.554 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-08 16:43:46.589 [info] > git status -z -uall [59ms]
+2025-09-08 16:43:46.636 [info] > git config --get commit.template [19ms]
+2025-09-08 16:43:46.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-09-08 16:43:46.685 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:46.717 [info] > git status -z -uall [57ms]
+2025-09-08 16:43:48.832 [info] > git show --textconv HEAD:.config/fastfetch [17ms]
+2025-09-08 16:43:48.835 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/dotfiles/.config/fastfetch?%7B%22path%22%3A%22%2Fhome%2Fuser%2Fdotfiles%2F.config%2Ffastfetch%22%2C%22ref%22%3A%22~%22%7D
+2025-09-08 16:43:48.837 [info] > git ls-tree -l HEAD -- .config/fastfetch [7ms]
+2025-09-08 16:43:51.770 [info] > git config --get commit.template [17ms]
+2025-09-08 16:43:51.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-08 16:43:51.813 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:51.847 [info] > git status -z -uall [55ms]
+2025-09-08 16:43:54.929 [info] > git checkout -q -- .config/fastfetch [20ms]
+2025-09-08 16:43:54.968 [info] > git config --get commit.template [20ms]
+2025-09-08 16:43:54.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-08 16:43:55.019 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:55.045 [info] > git status -z -uall [51ms]
+2025-09-08 16:43:57.152 [info] > git config --get commit.template [16ms]
+2025-09-08 16:43:57.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-08 16:43:57.189 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-08 16:43:57.220 [info] > git status -z -uall [50ms]
+2025-09-08 16:43:59.238 [info] > git add -A -- . [62ms]
+2025-09-08 16:43:59.322 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [70ms]
+2025-09-08 16:43:59.339 [info] > git config --get-all user.name [4ms]
+2025-09-08 16:43:59.356 [info] > git config --get-all user.email [5ms]
+2025-09-08 16:43:59.389 [info] > git config --get commit.template [17ms]
+2025-09-08 16:43:59.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-08 16:43:59.423 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-08 16:43:59.463 [info] > git status -z -uall [57ms]
+2025-09-08 16:44:02.254 [info] > git config --get commit.template [13ms]
+2025-09-08 16:44:02.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-08 16:44:02.292 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-08 16:44:02.318 [info] > git status -z -uall [47ms]

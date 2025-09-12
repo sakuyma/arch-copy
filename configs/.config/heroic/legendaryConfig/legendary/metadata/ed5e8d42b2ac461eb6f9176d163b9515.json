@@ -1,0 +1,111 @@
+{
+  "app_name": "ed5e8d42b2ac461eb6f9176d163b9515",
+  "app_title": "Figment",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "ed5e8d42b2ac461eb6f9176d163b9515",
+      "asset_id": "ed5e8d42b2ac461eb6f9176d163b9515",
+      "build_version": "v1.4.0_2020-03-29_3ceaeed",
+      "catalog_item_id": "1b2bc7cc58ae4633bcc8f7abc67fd537",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "270e1d648a5e4060b7b441615c4da4d9",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-11-06T20:59:29.196Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "Figment"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "270e1d648a5e4060b7b441615c4da4d9"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Figment",
+    "developer": "Bedtime Digital Games ApS",
+    "developerId": "o-bdq65kgy9hhkz5n4gkjlyt3uju86hw",
+    "endOfSupport": false,
+    "entitlementName": "1b2bc7cc58ae4633bcc8f7abc67fd537",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "1b2bc7cc58ae4633bcc8f7abc67fd537",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 766,
+        "md5": "db305dcf65ce7dd5d7c3adfe6afc6769",
+        "size": 490395,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-03-18T20:16:45.714Z",
+        "url": "https://cdn1.epicgames.com/270e1d648a5e4060b7b441615c4da4d9/item/EGS_Figment_BedtimeDigitalGames_S3-1360x766-db305dcf65ce7dd5d7c3adfe6afc6769.jpg",
+        "width": 1360
+      },
+      {
+        "height": 680,
+        "md5": "9ad7fc1bc7e6c8dae1674c2773c759d1",
+        "size": 374487,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-03-18T20:16:58.393Z",
+        "url": "https://cdn1.epicgames.com/270e1d648a5e4060b7b441615c4da4d9/item/EGS_Figment_BedtimeDigitalGames_S4-510x680-9ad7fc1bc7e6c8dae1674c2773c759d1.jpg",
+        "width": 510
+      }
+    ],
+    "lastModifiedDate": "2020-05-15T02:42:42.506Z",
+    "mainGameItemList": [],
+    "namespace": "270e1d648a5e4060b7b441615c4da4d9",
+    "releaseInfo": [
+      {
+        "appId": "ed5e8d42b2ac461eb6f9176d163b9515",
+        "dateAdded": "2020-03-05T00:00:00.000Z",
+        "id": "17b63abe267a43d0a8e3c164ded9ee8f",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "selfRefundable": true,
+    "status": "ACTIVE",
+    "title": "Figment",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

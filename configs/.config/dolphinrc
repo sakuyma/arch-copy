@@ -1,0 +1,16 @@
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,9,2,23,27,37.185
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,avif,evince,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,heif,imagethumbnail,jpegthumbnail,jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,totem,opendocumentthumbnail,librsvg,svgthumbnail,gnome-font-viewer,gdk-pixbuf-thumbnailer,gsf-office

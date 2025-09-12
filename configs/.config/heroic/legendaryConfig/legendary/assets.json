@@ -1,0 +1,253 @@
+{
+  "Windows": [
+    {
+      "app_name": "ad10e9b2f38d491499785412149cdc49",
+      "asset_id": "ad10e9b2f38d491499785412149cdc49",
+      "build_version": "Win-v0.7",
+      "catalog_item_id": "f1c822a8c39f48fcb91c278dd183cb84",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a91145754bbd49d597073afc695ffaf3"
+      },
+      "namespace": "03b2f198c0ec447db7ceff375b4bfe6b",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "ed5e8d42b2ac461eb6f9176d163b9515",
+      "asset_id": "ed5e8d42b2ac461eb6f9176d163b9515",
+      "build_version": "v1.4.0_2020-03-29_3ceaeed",
+      "catalog_item_id": "1b2bc7cc58ae4633bcc8f7abc67fd537",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "270e1d648a5e4060b7b441615c4da4d9",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "525aa0efd70f4399b9f64bcd2a5b38c7",
+      "asset_id": "525aa0efd70f4399b9f64bcd2a5b38c7",
+      "build_version": "2.1.2",
+      "catalog_item_id": "825cd0b5286c404289d456d47561cc1a",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "781f9bade5f54678a7e3bb23c1366834",
+        "update_type": "PATCH"
+      },
+      "namespace": "6827387b744d4a46bd70ea8a145e595b",
+      "sidecar_rev": 1
+    },
+    {
+      "app_name": "41869934302e4b8cafac2d3c0e7c293d",
+      "asset_id": "41869934302e4b8cafac2d3c0e7c293d",
+      "build_version": "107",
+      "catalog_item_id": "7d690c122fde4c60bed85405f343ad10",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "879b0d8776ab46a59a129983ba78f0ce",
+      "sidecar_rev": 1
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-37.20-CL-45679054-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "afdb5a85efcc45d8ae8e406e2121d81c",
+      "asset_id": "afdb5a85efcc45d8ae8e406e2121d81c",
+      "build_version": "1.1",
+      "catalog_item_id": "d75daf91c89b49ecb110b69a7bd68996",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.2",
+      "asset_id": "UE",
+      "build_version": "5.2.1-26001984+++UE5+Release-5.2-Windows",
+      "catalog_item_id": "0eac53dcfe8748598f1dbded4daa624a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.5",
+      "asset_id": "UE",
+      "build_version": "5.5.4-40574608+++UE5+Release-5.5-Windows",
+      "catalog_item_id": "1b3c549b6a724e90ad94d9c1f410bc96",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.0",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.0.0-19505902+++UE5+Release-5.0-2022.0.6-21164105-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.1",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.1.0-23058290+++UE5+Release-5.1-2023.3.0-29751885-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.2",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.2.0-25360045+++UE5+Release-5.2-2023.4.0-30079313-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.3",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.3.0-27405482+++UE5+Release-5.3-2023.1.1-38491899-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.4",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.4.0-33043543+++UE5+Release-5.4-2024.0.7-38493693-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.5",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.5.0-37670630+++UE5+Release-5.5-2025.0.3-38491436-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "QuixelBridge_5.6",
+      "asset_id": "QuixelBridge",
+      "build_version": "5.6.0-43139311+++UE5+Release-5.6-2025.0.1-43139311-Windows",
+      "catalog_item_id": "1ce536b653df463bb2492f529d832b71",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.4",
+      "asset_id": "UE",
+      "build_version": "5.4.4-35576357+++UE5+Release-5.4-Windows",
+      "catalog_item_id": "5e7c497460f64ae19e6c3aaef8b421cc",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.6",
+      "asset_id": "UE",
+      "build_version": "5.6.1-44394996+++UE5+Release-5.6-Windows",
+      "catalog_item_id": "73923380f4d944d5bcb6d77a0640d26d",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.1",
+      "asset_id": "UE",
+      "build_version": "5.1.1-23901901+++UE5+Release-5.1-2023.1-Windows",
+      "catalog_item_id": "971660b9efb0475f929ccd9770061fe9",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.3",
+      "asset_id": "UE",
+      "build_version": "5.3.2-29314046+++UE5+Release-5.3-Windows",
+      "catalog_item_id": "aa3bb95475084190ac97c8cab3c79ab1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "FabPlugin_5.3",
+      "asset_id": "FabPlugin",
+      "build_version": "5.3.0-27405482+++UE5+Release-5.3-0.0.4-39981068-Windows",
+      "catalog_item_id": "c5c30696e4e0482f9c0a170873975230",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "FabPlugin_5.4",
+      "asset_id": "FabPlugin",
+      "build_version": "5.4.0-33043543+++UE5+Release-5.4-0.0.4-39936700-Windows",
+      "catalog_item_id": "c5c30696e4e0482f9c0a170873975230",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "FabPlugin_5.5",
+      "asset_id": "FabPlugin",
+      "build_version": "5.5.0-37670630+++UE5+Release-5.5-0.0.4-39936700-Windows",
+      "catalog_item_id": "c5c30696e4e0482f9c0a170873975230",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "FabPlugin_5.6",
+      "asset_id": "FabPlugin",
+      "build_version": "5.6.0-43139311+++UE5+Release-5.6-0.0.6-45019750-Windows",
+      "catalog_item_id": "c5c30696e4e0482f9c0a170873975230",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    },
+    {
+      "app_name": "UE_5.0",
+      "asset_id": "UE",
+      "build_version": "5.0.3-20979098+++UE5+Release-5.0-2023.1-Windows",
+      "catalog_item_id": "d33c86e1279b45fc9a889f5e64ed6705",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue",
+      "sidecar_rev": 0
+    }
+  ]
+}
