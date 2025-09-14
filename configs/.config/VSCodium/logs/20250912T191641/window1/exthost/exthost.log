@@ -1,0 +1,62 @@
+2025-09-12 19:16:43.579 [info] Extension host with pid 12206 started
+2025-09-12 19:16:43.579 [info] Skipping acquiring lock for /home/user/.config/VSCodium/User/workspaceStorage/9d8dca0d3d69ae3b571812caa9df8bea.
+2025-09-12 19:16:43.596 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:16:43.601 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-12 19:16:43.610 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:16:43.647 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:16:43.733 [info] Eager extensions activated
+2025-09-12 19:16:43.734 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:43.736 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:43.748 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:48.139 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-12 19:16:48.142 [info] Extension host with pid 12206 exiting with code 0
+2025-09-12 19:16:48.845 [info] Extension host with pid 12303 started
+2025-09-12 19:16:48.856 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:16:48.860 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-12 19:16:48.870 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:16:48.902 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:16:48.961 [info] Eager extensions activated
+2025-09-12 19:16:48.962 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:48.964 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:48.976 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:54.854 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-12 19:16:54.860 [info] Extension host with pid 12303 exiting with code 0
+2025-09-12 19:16:55.534 [info] Extension host with pid 12386 started
+2025-09-12 19:16:55.534 [info] Skipping acquiring lock for /home/user/.config/VSCodium/User/workspaceStorage/20a24f8e1bc638b49b4ef200565eebd1.
+2025-09-12 19:16:55.550 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:16:55.554 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-12 19:16:55.568 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:16:55.604 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:16:55.665 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-12 19:16:55.693 [info] Eager extensions activated
+2025-09-12 19:16:55.703 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:55.705 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:16:55.716 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:40.195 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-12 19:19:40.198 [info] Extension host with pid 12386 exiting with code 0
+2025-09-12 19:19:40.934 [info] Extension host with pid 12939 started
+2025-09-12 19:19:40.943 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:19:40.946 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-12 19:19:40.949 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:19:40.979 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:19:41.038 [info] Eager extensions activated
+2025-09-12 19:19:41.039 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:41.040 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:41.052 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:47.224 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-12 19:19:47.228 [info] Extension host with pid 12939 exiting with code 0
+2025-09-12 19:19:47.911 [info] Extension host with pid 12980 started
+2025-09-12 19:19:47.911 [info] Skipping acquiring lock for /home/user/.config/VSCodium/User/workspaceStorage/4d9b99ab5795ebd1f48d4d7a23786850.
+2025-09-12 19:19:47.921 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-12 19:19:47.924 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-12 19:19:47.932 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-12 19:19:47.966 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-12 19:19:48.029 [info] Eager extensions activated
+2025-09-12 19:19:48.030 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-12 19:19:48.042 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:48.044 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:48.056 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-12 19:19:48.190 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-12 19:21:46.070 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12726
+2025-09-12 19:22:22.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12726
+2025-09-12 19:22:24.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12726

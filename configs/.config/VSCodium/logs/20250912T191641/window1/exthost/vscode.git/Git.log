@@ -1,0 +1,487 @@
+2025-09-12 19:16:43.729 [info] [main] Log level: Info
+2025-09-12 19:16:43.729 [info] [main] Validating found git in: "git"
+2025-09-12 19:16:43.729 [info] [main] Using git "2.51.0" from "git"
+2025-09-12 19:16:43.729 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [0ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [1ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] > git rev-parse --show-toplevel [1ms]
+2025-09-12 19:16:43.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:43.729 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 19:16:45.619 [info] > git rev-parse --show-toplevel [1ms]
+2025-09-12 19:16:45.619 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:16:48.935 [info] [main] Log level: Info
+2025-09-12 19:16:48.935 [info] [main] Validating found git in: "git"
+2025-09-12 19:16:48.935 [info] [main] Using git "2.51.0" from "git"
+2025-09-12 19:16:48.935 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 19:16:48.935 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 19:16:55.643 [info] [main] Log level: Info
+2025-09-12 19:16:55.643 [info] [main] Validating found git in: "git"
+2025-09-12 19:16:55.643 [info] [main] Using git "2.51.0" from "git"
+2025-09-12 19:16:55.643 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 19:16:55.643 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-12 19:16:55.647 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-09-12 19:16:55.656 [info] [Model][openRepository] Opened repository (path): /home/user/prj1
+2025-09-12 19:16:55.656 [info] [Model][openRepository] Opened repository (real path): /home/user/prj1
+2025-09-12 19:16:55.656 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-12 19:16:55.663 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-12 19:16:55.664 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 19:16:55.664 [info] > git config --get commit.template [4ms]
+2025-09-12 19:16:55.664 [info] > git fetch [8ms]
+2025-09-12 19:16:55.689 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:16:55.693 [info] > git config --get commit.template [14ms]
+2025-09-12 19:16:55.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-09-12 19:16:55.694 [warning] [Git][getBranch] No such branch: master
+2025-09-12 19:16:55.699 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:16:55.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-09-12 19:16:55.703 [warning] [Git][getBranch] No such branch: master
+2025-09-12 19:16:55.703 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-09-12 19:16:55.727 [info] > git config --get commit.template [25ms]
+2025-09-12 19:16:55.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-09-12 19:16:55.727 [warning] [Git][getBranch] No such branch: master
+2025-09-12 19:16:55.733 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:16:55.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-09-12 19:16:55.736 [warning] [Git][getBranch] No such branch: master
+2025-09-12 19:16:55.742 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-12 19:16:56.023 [info] > git status -z -uall [285ms] (cancelled)
+2025-09-12 19:16:56.782 [info] > git check-ignore -v -z --stdin [6ms]
+2025-09-12 19:17:01.031 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-09-12 19:17:01.031 [info] fatal: bad revision 'refs/heads/master'
+2025-09-12 19:17:01.032 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-09-12 19:17:02.649 [info] > git check-ignore -v -z --stdin [13ms]
+2025-09-12 19:17:05.312 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [0ms]
+2025-09-12 19:17:05.312 [info] fatal: bad revision 'refs/heads/master'
+2025-09-12 19:17:05.313 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-09-12 19:17:16.291 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [65ms]
+2025-09-12 19:17:16.294 [info] > git config --get commit.template [1ms]
+2025-09-12 19:17:16.300 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:17:16.300 [info] > git config --get commit.template [3ms]
+2025-09-12 19:17:16.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-09-12 19:17:16.307 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-09-12 19:17:16.355 [info] > git status -z -uall [53ms]
+2025-09-12 19:17:16.534 [info] > git config --get commit.template [1ms]
+2025-09-12 19:17:16.534 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [167ms]
+2025-09-12 19:17:16.538 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:17:16.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-09-12 19:17:16.545 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:17:16.594 [info] > git status -z -uall [53ms]
+2025-09-12 19:17:18.687 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-12 19:17:21.871 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [157ms]
+2025-09-12 19:17:27.102 [info] > git check-ignore -v -z --stdin [7ms]
+2025-09-12 19:17:52.726 [info] > git config --get commit.template [1ms]
+2025-09-12 19:17:52.729 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-12 19:17:52.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-09-12 19:17:52.737 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:17:52.776 [info] > git status -z -uall [44ms]
+2025-09-12 19:18:02.745 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [142ms]
+2025-09-12 19:18:15.769 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/user/prj1/.git/HEAD'
+2025-09-12 19:18:15.772 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/user/prj1/.git/config'
+2025-09-12 19:18:15.775 [info] > git remote --verbose [3ms]
+2025-09-12 19:18:15.775 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:18:15.776 [info] > git symbolic-ref --short HEAD [7ms]
+2025-09-12 19:18:15.776 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:18:15.780 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/user/prj1/.git/config'
+2025-09-12 19:18:15.782 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/user/prj1/.git/HEAD'
+2025-09-12 19:18:15.785 [info] > git config --get commit.template [11ms]
+2025-09-12 19:18:15.785 [info] > git config --get commit.template [1ms]
+2025-09-12 19:18:15.785 [info] > git symbolic-ref --short HEAD [3ms]
+2025-09-12 19:18:15.785 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:18:15.787 [info] > git remote --verbose [7ms]
+2025-09-12 19:18:15.787 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:18:15.788 [info] > git rev-parse HEAD [10ms]
+2025-09-12 19:18:15.788 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:18:15.788 [info] > git rev-parse HEAD [1ms]
+2025-09-12 19:18:15.788 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 19:19:41.012 [info] [main] Log level: Info
+2025-09-12 19:19:41.012 [info] [main] Validating found git in: "git"
+2025-09-12 19:19:41.012 [info] [main] Using git "2.51.0" from "git"
+2025-09-12 19:19:41.012 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 19:19:41.012 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 19:19:48.075 [info] [main] Log level: Info
+2025-09-12 19:19:48.075 [info] [main] Validating found git in: "git"
+2025-09-12 19:19:48.075 [info] [main] Using git "2.51.0" from "git"
+2025-09-12 19:19:48.075 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 19:19:48.075 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-12 19:19:48.075 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-09-12 19:19:48.075 [info] [Model][openRepository] Opened repository (path): /home/user/arch-copy
+2025-09-12 19:19:48.075 [info] [Model][openRepository] Opened repository (real path): /home/user/arch-copy
+2025-09-12 19:19:48.075 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-12 19:19:48.075 [info] > git rev-parse --show-toplevel [7ms]
+2025-09-12 19:19:48.075 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 19:19:48.075 [info] > git config --get commit.template [10ms]
+2025-09-12 19:19:48.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-12 19:19:48.086 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:19:48.087 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:19:48.093 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:19:48.154 [info] > git status -z -uall [65ms] (cancelled)
+2025-09-12 19:19:48.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-12 19:19:48.158 [info] > git config --get commit.template [4ms]
+2025-09-12 19:19:48.158 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-09-12 19:19:48.158 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-12 19:19:48.164 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2025-09-12 19:19:48.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-12 19:19:48.169 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:19:48.169 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-09-12 19:19:48.172 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-09-12 19:19:48.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-09-12 19:19:48.180 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-12 19:19:48.181 [info] > git config --add --local branch.main.vscode-merge-base origin/main [1ms]
+2025-09-12 19:19:48.186 [info] > git status -z -uall [12ms] (cancelled)
+2025-09-12 19:19:48.187 [info] > git config --get commit.template [1ms]
+2025-09-12 19:19:48.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-09-12 19:19:48.213 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:19:48.217 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-09-12 19:19:48.225 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-12 19:19:48.776 [info] > git fetch [760ms]
+2025-09-12 19:19:48.784 [info] > git status -z -uall [564ms] (cancelled)
+2025-09-12 19:19:48.784 [info] > git check-ignore -v -z --stdin [4ms]
+2025-09-12 19:19:48.785 [info] > git config --get commit.template [1ms]
+2025-09-12 19:19:48.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:19:48.791 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:19:48.791 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-09-12 19:19:48.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-09-12 19:19:48.828 [info] > git status -z -uall [33ms] (cancelled)
+2025-09-12 19:19:49.438 [info] > git check-ignore -v -z --stdin [15ms]
+2025-09-12 19:19:50.747 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:19:51.721 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:19:52.667 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:19:53.688 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:19:57.587 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-09-12 19:19:58.362 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:20:22.726 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 19:20:25.314 [info] > git show --textconv :aur_packages.txt [3ms]
+2025-09-12 19:20:25.317 [info] > git ls-files --stage -- aur_packages.txt [3ms]
+2025-09-12 19:20:25.320 [info] > git hash-object -t tree /dev/null [3ms]
+2025-09-12 19:20:25.320 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/user/arch-copy/aur_packages.txt.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2Farch-copy%2Faur_packages.txt%22%2C%22ref%22%3A%22%22%7D
+2025-09-12 19:20:25.321 [info] > git hash-object -t tree /dev/null [1ms]
+2025-09-12 19:20:25.321 [warning] [GitFileSystemProvider][stat] File not found - git:/home/user/arch-copy/aur_packages.txt.git?%7B%22path%22%3A%22%2Fhome%2Fuser%2Farch-copy%2Faur_packages.txt%22%2C%22ref%22%3A%22%22%7D
+2025-09-12 19:20:26.623 [info] > git add -A -- . [21963ms]
+2025-09-12 19:20:26.623 [info] warning: adding embedded git repository: configs/.config/fastfetch
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint: 	git submodule add <url> configs/.config/fastfetch
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint: 	git rm --cached configs/.config/fastfetch
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: adding embedded git repository: configs/.oh-my-zsh
+2025-09-12 19:20:26.682 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [56ms]
+2025-09-12 19:20:26.686 [info] > git config --get commit.template [0ms]
+2025-09-12 19:20:26.691 [info] > git config --get commit.template [1ms]
+2025-09-12 19:20:26.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:20:26.698 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:20:26.699 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:20:26.706 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-09-12 19:20:26.744 [info] > git status -z -uall [43ms]
+2025-09-12 19:20:26.764 [info] > git config --get commit.template [4ms]
+2025-09-12 19:20:26.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:20:26.767 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:20:26.768 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:20:26.776 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:20:26.818 [info] > git status -z -uall [47ms]
+2025-09-12 19:20:30.097 [info] > git blame --root --incremental 12277f1136db6b9df226657968dab88344ef7497 -- aur_packages.txt [17ms]
+2025-09-12 19:21:05.965 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [163ms]
+2025-09-12 19:21:06.185 [info] > git config --get commit.template [3ms]
+2025-09-12 19:21:06.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:06.189 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:06.190 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:06.198 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:06.237 [info] > git status -z -uall [44ms]
+2025-09-12 19:21:16.193 [info] > git config --get commit.template [4ms]
+2025-09-12 19:21:16.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:16.197 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:16.198 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:16.206 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:16.245 [info] > git status -z -uall [44ms]
+2025-09-12 19:21:17.304 [info] > git fetch --all [683ms]
+2025-09-12 19:21:17.311 [info] > git config --get commit.template [3ms]
+2025-09-12 19:21:17.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-12 19:21:17.315 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:17.316 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:17.323 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:17.361 [info] > git status -z -uall [43ms]
+2025-09-12 19:21:21.257 [info] > git config --get commit.template [3ms]
+2025-09-12 19:21:21.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:21.262 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:21.263 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:21.271 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:21.309 [info] > git status -z -uall [44ms]
+2025-09-12 19:21:24.547 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-12 19:21:26.786 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [158ms]
+2025-09-12 19:21:42.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [1ms]
+2025-09-12 19:21:42.191 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2025-09-12 19:21:42.737 [info] > git pull --tags origin main [544ms]
+2025-09-12 19:21:42.738 [info] From https://github.com/sakuyma/arch-copy
+ * branch            main       -> FETCH_HEAD
+2025-09-12 19:21:42.745 [info] > git config --get commit.template [4ms]
+2025-09-12 19:21:42.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-12 19:21:42.749 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:42.749 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-09-12 19:21:42.757 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:42.795 [info] > git status -z -uall [44ms]
+2025-09-12 19:21:44.181 [info] > git fetch --all [500ms]
+2025-09-12 19:21:44.188 [info] > git config --get commit.template [4ms]
+2025-09-12 19:21:44.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:44.190 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:44.191 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:44.199 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:44.237 [info] > git status -z -uall [43ms]
+2025-09-12 19:21:44.244 [info] > git config --get commit.template [3ms]
+2025-09-12 19:21:44.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:44.247 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:44.248 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:44.255 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:44.295 [info] > git status -z -uall [44ms]
+2025-09-12 19:21:45.997 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% c35c79d89bf03513882a6be59aae0039990bbe08 12277f1136db6b9df226657968dab88344ef7497 [11ms]
+2025-09-12 19:21:46.765 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-12 19:21:48.062 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:aur_packages.txt [4ms]
+2025-09-12 19:21:48.063 [info] > git ls-tree -l 12277f1136db6b9df226657968dab88344ef7497 -- aur_packages.txt [2ms]
+2025-09-12 19:21:48.568 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-12 19:21:49.303 [info] > git config --get commit.template [3ms]
+2025-09-12 19:21:49.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 19:21:49.307 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/user/arch-copy/.git/refs/remotes/origin/main'
+2025-09-12 19:21:49.308 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-09-12 19:21:49.315 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-12 19:21:49.356 [info] > git status -z -uall [45ms]
+2025-09-12 19:22:08.236 [info] > git ls-tree -l 12277f1136db6b9df226657968dab88344ef7497 -- aur_packages.txt [1ms]
+2025-09-12 19:22:21.941 [info] > git ls-tree -l 12277f1136db6b9df226657968dab88344ef7497 -- aur_packages.txt [2ms]
+2025-09-12 19:22:22.749 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% c35c79d89bf03513882a6be59aae0039990bbe08 12277f1136db6b9df226657968dab88344ef7497 [11ms]
+2025-09-12 19:22:23.600 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 19:22:24.399 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% c35c79d89bf03513882a6be59aae0039990bbe08 12277f1136db6b9df226657968dab88344ef7497 [11ms]
+2025-09-12 19:22:24.895 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:aur_packages.txt [886ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/.gsd-keyboard.settings-ported [882ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Cache/Cache_Data/5283edf90cf4ab50_0 [879ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Cache/Cache_Data/index [873ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Cache/Cache_Data/index-dir/the-real-index [870ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Code Cache/js/index [866ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Code Cache/js/index-dir/the-real-index [863ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Code Cache/wasm/index [860ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Code Cache/wasm/index-dir/the-real-index [857ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Crashpad/client_id [854ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Local Storage/leveldb/000003.log [847ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Local Storage/leveldb/CURRENT [844ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Local Storage/leveldb/LOCK [838ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Local Storage/leveldb/LOG [835ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Local Storage/leveldb/MANIFEST-000001 [831ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Network Persistent State [829ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Code Cache/js/index [825ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Code Cache/js/index-dir/the-real-index [822ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Code Cache/wasm/index [818ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Code Cache/wasm/index-dir/the-real-index [815ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DIPS [812ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnGraphiteCache/data_0 [809ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnGraphiteCache/data_2 [802ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnGraphiteCache/data_3 [798ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnWebGPUCache/data_0 [790ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnWebGPUCache/data_2 [782ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnWebGPUCache/data_3 [777ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/DawnWebGPUCache/index [774ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/GPUCache/data_0 [770ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/GPUCache/data_2 [763ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/GPUCache/data_3 [760ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/000003.log [753ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/CURRENT [749ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/LOCK [746ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/LOG [742ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Local Storage/leveldb/MANIFEST-000001 [739ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Network Persistent State [735ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Preferences [732ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Session Storage/000003.log [728ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Session Storage/CURRENT [724ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Session Storage/LOCK [721ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Session Storage/LOG [716ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Session Storage/MANIFEST-000001 [711ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Shared Dictionary/cache/index [707ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Shared Dictionary/cache/index-dir/the-real-index [704ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Shared Dictionary/db [700ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Shared Dictionary/db-journal [697ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Trust Tokens [693ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Partitions/bitwarden/Trust Tokens-journal [690ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Preferences [686ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Shared Dictionary/cache/index [682ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Shared Dictionary/cache/index-dir/the-real-index [679ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Shared Dictionary/db [675ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Shared Dictionary/db-journal [671ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Trust Tokens [668ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/Trust Tokens-journal [664ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/app.log [661ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/data.json [655ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Bitwarden/electron-log-preload.js [651ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/action-history [647ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/colorrc [643ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/contextrc [640ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/controllerrc [637ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/devicerc [633ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/dockrc [629ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/extensionrc [625ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/gimprc [620ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/internal-data/custom.ggr [617ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/modifiersrc [613ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/parasiterc [609ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/plug-in-settings/GimpProcedureConfigRun-file-jpeg-load.last [605ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/plug-in-settings/GimpProcedureConfigRun-file-webp-load.last [601ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/pluginrc [597ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/profilerc [594ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/sessionrc [590ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/shortcutsrc [586ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tags.xml [582ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/templaterc [576ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/theme.css [570ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-airbrush-tool [566ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-align-tool [562ms]
+2025-09-12 19:22:26.504 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-brightness-contrast-tool [559ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-bucket-fill-tool [554ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-by-color-select-tool [551ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-cage-tool [547ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-clone-tool [544ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-color-picker-tool [540ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-convolve-tool [536ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-crop-tool [532ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-curves-tool [528ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-dodge-burn-tool [524ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-ellipse-select-tool [520ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-eraser-tool [516ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-flip-tool [512ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-foreground-select-tool [494ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-free-select-tool [489ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-fuzzy-select-tool [485ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-gegl-tool [481ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-gradient-tool [475ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-handle-transform-tool [470ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-heal-tool [465ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-ink-tool [461ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-iscissors-tool [456ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-levels-tool [451ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-measure-tool [448ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-move-tool [443ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-mypaint-brush-tool [439ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-offset-tool [435ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-operation-tool [430ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-paintbrush-tool [426ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-pencil-tool [421ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-perspective-clone-tool [415ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-perspective-tool [410ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-rect-select-tool [405ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-rotate-tool [399ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-scale-tool [394ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-shear-tool [390ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-smudge-tool [386ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-text-tool [380ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-threshold-tool [375ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-transform-3d-tool [371ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-unified-transform-tool [367ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-vector-tool [363ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-warp-tool [359ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/tool-options/gimp-zoom-tool [355ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/toolrc [350ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/GIMP/3.0/unitrc [345ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/KDE/UserFeedback.org.kde.plasma-welcome.conf [340ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/QtProject.conf [336ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/Trolltech.conf [332ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0180d0b0ffe2d67f_0 [328ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/05410eb81f8a2e8b_0 [319ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/05e76548005482f9_0 [316ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/06e48b18fb9855d9_0 [312ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/072576094eb1c9e8_0 [308ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0794fb7ba665e10c_0 [303ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/08047046b436e5b8_0 [299ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/08b1e87a086ada27_0 [296ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0a1a736e71c66468_0 [292ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0a31546107b3ed25_0 [288ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0b5598052d94e3c9_0 [283ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0c5d5007b404550d_0 [279ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0e13bf36f9a52048_0 [275ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/0f5aeb2d42dba966_0 [271ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/10386a2f599816f7_0 [267ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/10e8632f57721e3e_0 [259ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/120277659bbe1c18_0 [254ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/148cbd163a1716b0_0 [250ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/14c12d07c03faf3b_0 [246ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/150eb55a03436733_0 [242ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/161d3d757915fa4d_0 [238ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/164d356dfdc1fd9f_0 [234ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/18188f38dbb67137_0 [229ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/189dccacf87c21a7_0 [225ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1bbc8984477f9dac_0 [221ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1c3fe1784646ff6b_0 [217ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1c755d62604c6369_0 [213ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1cf52c9bc49ce9d4_0 [208ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1e1883bdeb135cc7_0 [204ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1eecc109e71f3f00_0 [200ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/1f8669886821cfc3_0 [192ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/20c3149681747802_0 [187ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/219939c2b4e68bee_0 [183ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/21cdd5fcfc5d2900_0 [179ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/2247f3d7c1b42981_0 [175ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/22ca1a1450591b9e_0 [170ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/25a7dca048ea695d_0 [166ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/2603c0afa3f54843_0 [161ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/268a186fcbc80c09_0 [156ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/2a83f23a32814fa8_0 [148ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/2d2a85df696d46da_0 [139ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/2d669e4bec7b38c8_0 [135ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/303b36a0a774a39d_0 [131ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/32e0fcb29b3b98a3_0 [122ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/331dd1bc2fde5636_0 [118ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/33605ec4b651b8c1_0 [114ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/346aa3741fed572b_0 [109ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/3508ad951c5c0de4_0 [105ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/35319a122a69f0e1_0 [101ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/35c1fa90551f2151_0 [97ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/3639e7ecbd6e04ef_0 [93ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/38beba5b82b5af82_0 [89ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/38bee1b9753b41f6_0 [85ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/39aeb0ce62b4fad3_0 [81ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/3b1830fce475493f_0 [77ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/3ba2cea99cb6f3a9_0 [73ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/3c2be9d63a175f12_0 [68ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/4025c9dcf5f67eda_0 [65ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/404cce01e4eb4362_0 [60ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/40dd42099ad90476_0 [56ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/4235943f89642446_0 [53ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/44137423218a8963_0 [48ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/442679bac716371e_0 [44ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/4476c1101537fc39_0 [40ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/45a671e4d5fc0377_0 [36ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/472d3082bd3efccc_0 [32ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/4790d0fd45728d5e_0 [28ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/48c1afba8b960b40_0 [24ms]
+2025-09-12 19:22:26.505 [info] > git show --textconv 12277f1136db6b9df226657968dab88344ef7497:configs/.config/VSCodium/Cache/Cache_Data/4914d3dbac3cf27b_0 [20ms]

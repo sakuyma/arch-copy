@@ -1,4 +1,0 @@
-2025-09-07 17:58:16.137 [info] Log level: Info
-2025-09-07 17:58:23.719 [info] Log level: Info
-2025-09-07 17:58:33.526 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-09-07 17:58:33.558 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for sakuyma/dotfiles: Error: No GitHub authentication session available.

@@ -27,11 +27,11 @@
             "folder": "file:///home/user/.config/rofi",
             "backupPath": "/home/user/.config/VSCodium/Backups/04ecec6dbee051166203b1875db8912a",
             "uiState": {
-                "mode": 0,
-                "x": 0,
-                "y": 0,
-                "width": 960,
-                "height": 1041,
+                "mode": 1,
+                "x": 20,
+                "y": 59,
+                "width": 931,
+                "height": 997,
                 "zoomLevel": 3
             }
         },
@@ -212,13 +212,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -312,13 +310,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -367,13 +363,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -836,8 +830,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1177,6 +1170,11 @@
                     {
                         "id": "workbench.action.terminal.split",
                         "label": "&&Split Terminal",
+                        "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.terminal.newInNewWindow",
+                        "label": "New Terminal &&Window",
                         "enabled": false
                     },
                     {
@@ -1742,6 +1740,10 @@
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
                 "userSettingsLabel": "ctrl+shift+5"
+            },
+            "workbench.action.terminal.newInNewWindow": {
+                "label": "Ctrl+Shift+Alt+`",
+                "userSettingsLabel": "ctrl+shift+alt+`"
             },
             "workbench.action.tasks.build": {
                 "label": "Ctrl+Shift+B",

@@ -1,0 +1,2 @@
+2025-09-12 19:18:10.758 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-09-12 19:19:30.323 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /home/user/prj1)

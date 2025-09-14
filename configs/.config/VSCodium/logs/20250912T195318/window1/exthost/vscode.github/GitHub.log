@@ -1,0 +1,3 @@
+2025-09-12 19:53:21.056 [info] Log level: Info
+2025-09-12 19:53:22.716 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sakuyma/arch-copy/27e96ded05d81c6a13da6d33a39eb48a53533260: TypeError: Cannot read properties of null (reading 'author')
+2025-09-12 19:53:33.874 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sakuyma/arch-copy/a561ffc1ed64f5367dc7141715f51b6871e77c5b: TypeError: Cannot read properties of null (reading 'author')

@@ -1,0 +1,13 @@
+2025-09-13 14:43:08.887 [info] Extension host with pid 3067 started
+2025-09-13 14:43:08.887 [info] Skipping acquiring lock for /home/user/.config/VSCodium/User/workspaceStorage/9d8dca0d3d69ae3b571812caa9df8bea.
+2025-09-13 14:43:08.989 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-13 14:43:09.016 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-13 14:43:09.018 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2025-09-13 14:43:09.040 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-13 14:43:09.078 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-13 14:43:09.164 [info] Eager extensions activated
+2025-09-13 14:43:09.186 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-13 14:43:09.187 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-13 14:43:09.200 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-09-13 14:43:09.310 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-13 14:43:09.313 [info] Extension host with pid 3067 exiting with code 0

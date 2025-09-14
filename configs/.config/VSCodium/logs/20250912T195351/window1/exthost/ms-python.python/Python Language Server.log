@@ -1,0 +1,490 @@
+2025-09-12 19:54:59.511 [info] semantic_tokens_full file:///home/user/arch-copy/main.py 
+2025-09-12 19:54:59.745 [info] semantic_tokens_range file:///home/user/arch-copy/main.py 0:0-48:26
+2025-09-12 19:55:00.077 [info] [Debug - 7:55:00 PM] no definitions found for name "copy_bin" of type 'statement' (6:4)
+2025-09-12 19:55:00.114 [info] [Debug - 7:55:00 PM] no definitions found for name "copy_bin" of type 'statement' (6:4)
+2025-09-12 19:55:00.231 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (16:38):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.235 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (16:38):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.263 [info] [Debug - 7:55:00 PM] multiple definitions found for name "join" of type 'statement' (16:43):
+ <Name full_name='os.path.join', description='def join'>
+<Name full_name='os.path.join', description='def join'>
+2025-09-12 19:55:00.263 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (17:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.278 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (17:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.278 [info] [Debug - 7:55:00 PM] multiple definitions found for name "isfile" of type 'statement' (17:23):
+ <Name full_name='os.path.isfile', description='def isfile'>
+<Name full_name='os.path.isfile', description='def isfile'>
+2025-09-12 19:55:00.278 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (18:31):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.279 [info] [Debug - 7:55:00 PM] multiple definitions found for name "basename" of type 'statement' (18:36):
+ <Name full_name='os.path.basename', description='def basename'>
+<Name full_name='os.path.basename', description='def basename'>
+2025-09-12 19:55:00.279 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (19:31):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.288 [info] [Debug - 7:55:00 PM] multiple definitions found for name "isfile" of type 'statement' (17:23):
+ <Name full_name='nt._path_isfile', description='module isfile'>
+<Name full_name='os.path.isfile', description='def isfile'>
+2025-09-12 19:55:00.288 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (18:31):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.297 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (36:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.297 [info] [Debug - 7:55:00 PM] multiple definitions found for name "expanduser" of type 'statement' (36:23):
+ <Name full_name='os.path.expanduser', description='def expanduser'>
+<Name full_name='os.path.expanduser', description='def expanduser'>
+2025-09-12 19:55:00.297 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (40:29):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.298 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (41:27):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.299 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (43:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.299 [info] [Debug - 7:55:00 PM] multiple definitions found for name "isdir" of type 'statement' (43:23):
+ <Name full_name='nt._path_isdir', description='module isdir'>
+<Name full_name='os.path.isdir', description='def isdir'>
+2025-09-12 19:55:00.302 [info] [Debug - 7:55:00 PM] multiple definitions found for name "basename" of type 'statement' (18:36):
+ <Name full_name='os.path.basename', description='def basename'>
+<Name full_name='os.path.basename', description='def basename'>
+<Name full_name='os.path.basename', description='def basename'>
+2025-09-12 19:55:00.302 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (19:31):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.302 [info] [Debug - 7:55:00 PM] multiple definitions found for name "join" of type 'statement' (19:36):
+ <Name full_name='os.path.join', description='def join'>
+<Name full_name='os.path.join', description='def join'>
+2025-09-12 19:55:00.304 [info] [Debug - 7:55:00 PM] multiple definitions found for name "copy2" of type 'statement' (22:23):
+ <Name full_name='shutil.copy2', description='def copy2'>
+<Name full_name='shutil.copy2', description='def copy2'>
+2025-09-12 19:55:00.305 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (26:16)
+2025-09-12 19:55:00.305 [info] [Debug - 7:55:00 PM] no definitions found for name "Exception" of type 'statement' (29:11)
+2025-09-12 19:55:00.305 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (30:8)
+2025-09-12 19:55:00.306 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (36:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.306 [info] [Debug - 7:55:00 PM] multiple definitions found for name "expanduser" of type 'statement' (36:23):
+ <Name full_name='os.path.expanduser', description='def expanduser'>
+<Name full_name='os.path.expanduser', description='def expanduser'>
+<Name full_name='os.path.expanduser', description='def expanduser'>
+2025-09-12 19:55:00.307 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (40:29):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.307 [info] [Debug - 7:55:00 PM] multiple definitions found for name "join" of type 'statement' (40:34):
+ <Name full_name='os.path.join', description='def join'>
+<Name full_name='os.path.join', description='def join'>
+2025-09-12 19:55:00.307 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (41:27):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.307 [info] [Debug - 7:55:00 PM] multiple definitions found for name "join" of type 'statement' (41:32):
+ <Name full_name='os.path.join', description='def join'>
+<Name full_name='os.path.join', description='def join'>
+2025-09-12 19:55:00.308 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (43:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.308 [info] [Debug - 7:55:00 PM] multiple definitions found for name "isdir" of type 'statement' (43:23):
+ <Name full_name='os.path.isdir', description='def isdir'>
+<Name full_name='os.path.isdir', description='def isdir'>
+2025-09-12 19:55:00.310 [info] [Debug - 7:55:00 PM] multiple definitions found for name "copytree" of type 'statement' (44:23):
+ <Name full_name='shutil.copytree', description='def copytree'>
+<Name full_name='shutil.copytree', description='def copytree'>
+<Name full_name='shutil.copytree', description='def copytree'>
+2025-09-12 19:55:00.310 [info] [Debug - 7:55:00 PM] multiple definitions found for name "copy2" of type 'statement' (46:23):
+ <Name full_name='shutil.copy2', description='def copy2'>
+<Name full_name='shutil.copy2', description='def copy2'>
+2025-09-12 19:55:00.310 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (48:8)
+2025-09-12 19:55:00.310 [info] [Debug - 7:55:00 PM] no definitions found for name "Exception" of type 'statement' (49:11)
+2025-09-12 19:55:00.310 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (50:8)
+2025-09-12 19:55:00.311 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (54:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.312 [info] [Debug - 7:55:00 PM] multiple definitions found for name "exists" of type 'statement' (54:23):
+ <Name full_name='os.path.exists', description='def exists'>
+<Name full_name='os.path.exists', description='def exists'>
+2025-09-12 19:55:00.312 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (55:12)
+2025-09-12 19:55:00.613 [info] [Debug - 7:55:00 PM] multiple definitions found for name "strip" of type 'statement' (59:28):
+ <Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] multiple definitions found for name "readlines" of type 'statement' (59:52):
+ <Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='io.BufferedReader.readlines', description='def readlines'>
+<Name full_name='io.FileIO.readlines', description='def readlines'>
+<Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='io.BufferedWriter.readlines', description='def readlines'>
+<Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='io.BufferedRandom.readlines', description='def readlines'>
+<Name full_name='io.TextIOWrapper.readlines', description='def readlines'>
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] no definitions found for name "pkg" of type 'statement' (59:67)
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] no definitions found for name "strip" of type 'statement' (59:71)
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (62:12)
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (65:8)
+2025-09-12 19:55:00.629 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (69:12)
+2025-09-12 19:55:00.638 [info] [Debug - 7:55:00 PM] multiple definitions found for name "run" of type 'statement' (71:36):
+ <Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+2025-09-12 19:55:00.642 [info] [Debug - 7:55:00 PM] multiple definitions found for name "check" of type 'statement' (73:20):
+ <Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+2025-09-12 19:55:00.644 [info] [Debug - 7:55:00 PM] multiple definitions found for name "text" of type 'statement' (74:20):
+ <Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+2025-09-12 19:55:00.644 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (77:16)
+2025-09-12 19:55:00.644 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (79:16)
+2025-09-12 19:55:00.645 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (82:8)
+2025-09-12 19:55:00.645 [info] [Debug - 7:55:00 PM] multiple definitions found for name "installed" of type 'statement' (82:31):
+ <Name full_name='main.install_packages_pacman.installed', description='installed += 1'>
+<Name full_name='main.install_packages_pacman.installed', description='installed = 0'>
+2025-09-12 19:55:00.645 [info] [Debug - 7:55:00 PM] multiple definitions found for name "installed" of type 'statement' (83:15):
+ <Name full_name='main.install_packages_pacman.installed', description='installed += 1'>
+<Name full_name='main.install_packages_pacman.installed', description='installed = 0'>
+2025-09-12 19:55:00.645 [info] [Debug - 7:55:00 PM] no definitions found for name "Exception" of type 'statement' (85:11)
+2025-09-12 19:55:00.645 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (86:8)
+2025-09-12 19:55:00.646 [info] [Debug - 7:55:00 PM] multiple definitions found for name "run" of type 'statement' (90:15):
+ <Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+2025-09-12 19:55:00.646 [info] [Debug - 7:55:00 PM] multiple definitions found for name "run" of type 'statement' (91:15):
+ <Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+2025-09-12 19:55:00.647 [info] [Debug - 7:55:00 PM] multiple definitions found for name "run" of type 'statement' (92:15):
+ <Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+2025-09-12 19:55:00.647 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (93:4)
+2025-09-12 19:55:00.647 [info] [Debug - 7:55:00 PM] multiple definitions found for name "path" of type 'statement' (97:18):
+ <Name full_name='os.path', description='module ntpath'>
+<Name full_name='os.path', description='module posixpath'>
+2025-09-12 19:55:00.647 [info] [Debug - 7:55:00 PM] multiple definitions found for name "exists" of type 'statement' (97:23):
+ <Name full_name='os.path.exists', description='def exists'>
+<Name full_name='os.path.exists', description='def exists'>
+2025-09-12 19:55:00.648 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (98:12)
+2025-09-12 19:55:00.658 [info] [Debug - 7:55:00 PM] multiple definitions found for name "strip" of type 'statement' (102:28):
+ <Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.bytes.strip', description='def strip'>
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] multiple definitions found for name "readlines" of type 'statement' (102:52):
+ <Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='io.BufferedReader.readlines', description='def readlines'>
+<Name full_name='io.BufferedWriter.readlines', description='def readlines'>
+<Name full_name='io.FileIO.readlines', description='def readlines'>
+<Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='typing.IO.readlines', description='def readlines'>
+<Name full_name='io.TextIOWrapper.readlines', description='def readlines'>
+<Name full_name='io.BufferedRandom.readlines', description='def readlines'>
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] no definitions found for name "pkg" of type 'statement' (102:67)
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] no definitions found for name "strip" of type 'statement' (102:71)
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (105:12)
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (108:8)
+2025-09-12 19:55:00.663 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (112:12)
+2025-09-12 19:55:00.664 [info] [Debug - 7:55:00 PM] multiple definitions found for name "run" of type 'statement' (114:36):
+ <Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+<Name full_name='subprocess.run', description='def run'>
+2025-09-12 19:55:00.666 [info] [Debug - 7:55:00 PM] multiple definitions found for name "check" of type 'statement' (116:20):
+ <Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+<Name name='check', description='param check: bool=...'>
+2025-09-12 19:55:00.668 [info] [Debug - 7:55:00 PM] multiple definitions found for name "text" of type 'statement' (117:20):
+ <Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[True]'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+<Name name='text', description='param text: Literal[None, False]=...'>
+<Name name='text', description='param text: Optional[bool]=...'>
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (120:16)
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (122:16)
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (125:8)
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] multiple definitions found for name "installed" of type 'statement' (125:31):
+ <Name full_name='main.install_aur_packages.installed', description='installed += 1'>
+<Name full_name='main.install_aur_packages.installed', description='installed = 0'>
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] multiple definitions found for name "installed" of type 'statement' (126:15):
+ <Name full_name='main.install_aur_packages.installed', description='installed += 1'>
+<Name full_name='main.install_aur_packages.installed', description='installed = 0'>
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] no definitions found for name "Exception" of type 'statement' (128:11)
+2025-09-12 19:55:00.669 [info] [Debug - 7:55:00 PM] no definitions found for name "e" of type 'statement' (128:24)
+2025-09-12 19:55:00.670 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (129:8)
+2025-09-12 19:55:00.670 [info] [Debug - 7:55:00 PM] no definitions found for name "e" of type 'statement' (129:25)
+2025-09-12 19:55:00.671 [info] [Debug - 7:55:00 PM] no definitions found for name "print" of type 'statement' (134:8)
+2025-09-12 19:55:00.671 [info] [Debug - 7:55:00 PM] no definitions found for name "copy_bin" of type 'statement' (141:8)
+2025-09-12 19:55:00.671 [info] [Debug - 7:55:00 PM] no matching semantic token for "__name__" of type 'statement' (143:3)

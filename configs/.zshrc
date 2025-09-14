@@ -69,5 +69,6 @@ alias rbt="systemctl reboot --no-wall"
 
 alias misha="python ~/apps/python/1/main.py" 
 
+alias exit="sudo systemctl start sddm && hyprctl dispatch exit"
 alias powermenu="sh ~/.config/rofi/powermenu.sh"
 alias launcher="sh ~/.config/rofi/launcher.sh"
