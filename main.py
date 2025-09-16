@@ -3,11 +3,6 @@ import os
 import shutil
 import glob
 
-def copy_bin()
-    import shutil
-import os
-import glob
-import subprocess
 
 def copy_to_usr_local_bin():
     source_dir = 'bin'
