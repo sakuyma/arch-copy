@@ -109,7 +109,7 @@ def install_aur_packages(file_path="aur_packages.txt"):
         
         installed = 0
         for pkg in packages:
-            print(f"\nУстановка пакета: {pkg}")
+            print(f"\nУстановка пакета: {pkg}.")
             try:
                 result = subprocess.run(
                     ['paru', '-S', '--noconfirm', pkg],
